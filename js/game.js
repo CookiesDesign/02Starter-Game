@@ -89,9 +89,9 @@ function showQuestion(e){
 // Generate question data
 function getQuestionData(e){
 	// Update question
-	questionLabel.innerHTML = questions["question" + e].questionLabel
+	questionLabel.innerHTML = questions["question" + e].questionLabel;
 	questionText.innerHTML = questions["question" + e].questionText;
-	questionImage.src = questions["question" + e].questionImage;
+	questionImage.src =  questions["question" + e].questionImage;
 	// Update answers
 	optionA.innerHTML = questions["question" + e].optionA.responseText;
 	optionB.innerHTML = questions["question" + e].optionB.responseText;
